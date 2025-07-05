@@ -11,7 +11,7 @@ const app = express();
 // Middlewares
 
 await connectDB();
-const allowedOrigins=['http://localhost:5173','https://quick-blog-opal.vercel.app']
+const allowedOrigins=['http://localhost:5173','https://quick-blog-opal.vercel.app','https://quick-blog-mahesh.vercel.app']
 app.use(express.json());
 
 app.use(cors({
